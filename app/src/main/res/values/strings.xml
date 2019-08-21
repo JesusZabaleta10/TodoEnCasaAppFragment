@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TodoEnCasaApp</string>
+    <string name="bienvenido">Bienvenido a TodoEnCasaApp</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="registrar">Registrate</string>
+    <string name="login">Iniciar Sesion</string>
+    <string name="re_contraseña">Repetir contraseña</string>
+    <string name="cerrar">Cerrar Sesion</string>
+    <string name="correo2">Correo:</string>
+    <string name="contraseña2">Contraseña:</string>
+</resources>
