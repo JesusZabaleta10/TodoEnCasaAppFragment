@@ -4,6 +4,10 @@ import android.app.Activity
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v4.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_login.b_registrar
@@ -50,6 +54,10 @@ class LoginActivity : AppCompatActivity() {
         if(requestCode == 1234 && resultCode == Activity.RESULT_OK){
              correo = data!!.extras.getString("correo")
              contraseña = data!!.extras.getString("contraseña")
+        }
+
+        if(requestCode == 5678 && resultCode == Activity.RESULT_CANCELED){
+            finish()
         }
     }
 }

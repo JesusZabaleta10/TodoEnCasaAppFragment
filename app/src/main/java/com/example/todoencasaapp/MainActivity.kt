@@ -30,12 +30,20 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         when(item!!.itemId){
             R.id.menu_overflow -> {
-                var intent = Intent(this@MainActivity, LoginActivity::class.java) // Lanzar actividades o servicios
+                var intent = Intent(this, LoginActivity::class.java) // Lanzar actividades o servicios
                 setResult(Activity.RESULT_OK,intent)
                 Toast.makeText(this, "Sesion Cerrada", Toast.LENGTH_SHORT).show()
                 finish()
             }
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        var intent = Intent(this, LoginActivity::class.java)
+        Toast.makeText(this, "Gracias por usar nuestra app", Toast.LENGTH_SHORT).show()
+        setResult(Activity.RESULT_CANCELED,intent)
+        finish()
     }
 }

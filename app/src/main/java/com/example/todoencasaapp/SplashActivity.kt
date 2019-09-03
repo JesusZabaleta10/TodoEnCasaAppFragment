@@ -22,7 +22,7 @@ class SplashActivity : AppCompatActivity() {
         // 2 seconds splash time
         Handler().postDelayed({
             // Start LoginActivity
-            var intent = Intent(this@SplashActivity, LoginActivity::class.java)
+            var intent = Intent(this@SplashActivity, MenuNavDraActivity::class.java)
             startActivity(intent)
             // Finish this activity
             finish()

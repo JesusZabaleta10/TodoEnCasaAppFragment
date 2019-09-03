@@ -9,4 +9,23 @@
     <string name="cerrar">Cerrar Sesion</string>
     <string name="correo2">Correo:</string>
     <string name="contraseña2">Contraseña:</string>
+    <string name="title_activity_menu_nav_dra">TodoEnCasaApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Usuario</string>
+    <string name="nav_header_subtitle">Iniciar sesión</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Mi cuenta</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="categorias">Categorias</string>
+    <string name="historial">Historial</string>
+    <string name="inicio">Inicio</string>
+    <string name="cuenta">Mi cuenta</string>
+    <string name="mi_cuenta">Mi cuenta</string>
 </resources>
